@@ -1,0 +1,14 @@
+.layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  height: 100vh;
+}
+
+.header {
+  padding: 2rem;
+  border-right: 2px solid #eee;
+}
+
+.main {
+  padding: 2rem;
+}
