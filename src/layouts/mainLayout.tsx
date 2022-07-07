@@ -1,4 +1,5 @@
 import Header from "components/Header";
+import Link from "next/link";
 
 import styles from "./mainLayout.module.css";
 
@@ -8,7 +9,9 @@ export default function MainLayout({ children }) {
       <Header className={styles.header}>
         <h3>Components</h3>
         <nav>
-          <a href="/components/card">Card</a>
+          <Link href="/components/card">
+            <a>Card</a>
+          </Link>
         </nav>
       </Header>
       <main className={styles.main}>{children}</main>

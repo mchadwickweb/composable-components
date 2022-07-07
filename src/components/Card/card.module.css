@@ -1,0 +1,26 @@
+.card {
+  /* Sizing */
+  font-size: var(--fs-text);
+  /* Spacing */
+  --stack-space: 1rem;
+  --spacing: 1rem;
+
+  /* UI */
+  --radius: 2px;
+  --shadow: none;
+  --border: none;
+  --background: hsl(0, 0%, 100%);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: var(--border);
+  background: var(--background);
+  overflow: hidden;
+}
+
+.media {
+  width: minmax(270px, 300px);
+}
+
+.content {
+  padding: var(--spacing);
+}
